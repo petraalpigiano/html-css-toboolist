@@ -9,7 +9,6 @@ body {
 header{
     padding-left: 30px;
     padding-top: 15px;
-    padding-bottom: 15px;
     background-color: white;
 }
 h1{
@@ -30,6 +29,7 @@ h1{
     margin-bottom: 15px;
     padding-left: 60px;
     padding-top: 15px;
+    border-radius: 10px;
 }
 .button-container button {
     font-family: Arial, Helvetica, sans-serif;
@@ -47,17 +47,35 @@ h1{
     color: #d6d6d6;
     border: 1px solid #d6d6d6;
 }
-h3 {
+.list-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section-container h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     color: #45494a;
 }
-p{
+.section-container p{
     font-family: Arial, Helvetica, sans-serif;
     color: #585759;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-.separate-section {
-    padding-bottom: 30px;
+.verde {
+    color: #84b8a6;
+    border: 1px solid #84b8a6 ;
+    border-radius: 50%; 
 }
+.rosso {
+    color: #b36d7b;
+    border: 1px solid #b36d7b;
+    border-radius: 50%; 
+}
+
 
 
