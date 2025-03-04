@@ -19,16 +19,19 @@ h1{
     vertical-align: middle;
 }
 .logo {
+    display: inline;
     vertical-align: middle;
 }
-.container {
+.general-container {
     max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     margin-top: 60px;
     margin-bottom: 15px;
+    padding-left: 60px;
+    padding-top: 15px;
 }
-.container button {
+.button-container button {
     font-family: Arial, Helvetica, sans-serif;
     padding: 8px;
     border-radius: 5px;
@@ -44,3 +47,17 @@ h1{
     color: #d6d6d6;
     border: 1px solid #d6d6d6;
 }
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #45494a;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585759;
+}
+.separate-section {
+    padding-bottom: 30px;
+}
+
+
