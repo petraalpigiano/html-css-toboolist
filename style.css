@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #f7f8fa;
+}
 header{
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: white;
 }
 h1{
     display: inline;
@@ -16,4 +20,11 @@ h1{
 }
 .logo {
     vertical-align: middle;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 15px;
 }
